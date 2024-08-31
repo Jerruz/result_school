@@ -1,0 +1,10 @@
+.green {
+    color: green;
+    border: 1px red;
+    width: 400px;
+}
+
+/* ошибка 1 и 2 */
+a:hover {
+    color: salmon;
+}
