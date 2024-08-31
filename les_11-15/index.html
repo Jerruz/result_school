@@ -2,7 +2,6 @@
 <html lang="en">
 
     <head>
-        <!-- ошибка 1 -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,19 +19,19 @@
             width="300px" />
 
         <br /><a href="https://vk.com/feed">ВК моего кота</a>
-        <h4>Топ лучших котиков:</h4>
+        <!-- ошибка 1 -->
+        <h3>Топ лучших котиков:</h3>
         <ol>
             <li>Вася!</li>
         </ol>
         <form>
-            <label for="cat">Например, очаровательный...</label><br />
+            <label for="cat">Например, очаровательный...</label>
+            
+            <br />
             <!-- ошибки 2 и 3 -->
-            <input
-                type="text"
-                id="cat"
-                name="cat"
-                class="cat"
-                placeholder="Опишите моего кота:" /><br />
+            <input type="text" id="cat" name="cat" class="cat" placeholder="Опишите моего кота:" />
+                
+            <br />
         </form>
     </body>
 </html>
