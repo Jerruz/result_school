@@ -1,0 +1,16 @@
+.green {
+    color: green;
+    border: 1px solid red;
+    width: 400px;
+}
+
+a:hover {
+    color: salmon;
+}
+
+/* ошибка 1: $ => @ */
+@media(max-width: 1000px) {
+    body {
+        background-image: url("/bg.jpg");
+    }
+}
