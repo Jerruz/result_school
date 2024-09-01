@@ -11,6 +11,6 @@ a:hover {
 /* ошибка 1: $ => @ */
 @media(max-width: 1000px) {
     body {
-        background-image: url("/bg.jpg");
+        background-image: url("bg.jpg");
     }
 }
